@@ -4,7 +4,7 @@ import time
 import os
 
 # Токен бота (замени на свой)
-TOKEN = '7888076856:AAH76s_YqoRv0TQyI9z_Sn7E0vQcEM1bIhA'
+TOKEN = os.environ.get('API_TOKEN')
 # Твой личный Telegram ID (узнай у @userinfobot)
 ADMIN_ID = 1825184352
 
