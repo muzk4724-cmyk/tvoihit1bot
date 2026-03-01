@@ -6,7 +6,7 @@ import os
 # Токен бота (замени на свой)
 TOKEN = os.environ.get('API_TOKEN')
 # Твой личный Telegram ID (узнай у @userinfobot)
-ADMIN_ID = 1825184352
+ADMIN_ID = 1053936284
 
 bot = telebot.TeleBot(TOKEN)
 user_themes = {}
